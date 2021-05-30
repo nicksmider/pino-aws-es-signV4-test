@@ -17,7 +17,7 @@ const streamToElastic = pinoElastic({
 
 const logger = pino({ level: 'info' }, streamToElastic)
 
-logger.info('nick news');
+logger.info('Test log');
 
 // Script hands while logger is waiting to flush
 // Making it clear in console
