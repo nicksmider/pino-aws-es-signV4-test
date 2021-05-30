@@ -1,0 +1,18 @@
+{
+  "name": "pino-aws-es-signv4-test",
+  "version": "1.0.0",
+  "description": "Testing AWS Sign v4 connection with Pino ES logger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicholas Smider",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.12.0",
+    "aws-elasticsearch-connector": "^9.0.3",
+    "aws-sdk": "^2.918.0",
+    "dotenv": "^10.0.0",
+    "pino": "^6.11.3"
+  }
+}
