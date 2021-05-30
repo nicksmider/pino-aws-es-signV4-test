@@ -5,6 +5,7 @@ const pino = require('pino')
 const pinoElastic = require('pino-elasticsearch')
 
 const { Connection, Transport } = createAwsElasticsearchConnector(AWS.config);
+console.log(Connection, Transport);
 
 const streamToElastic = pinoElastic({
   index: 'test-index',
