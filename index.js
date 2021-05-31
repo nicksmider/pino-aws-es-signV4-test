@@ -1,6 +1,6 @@
-require('dotenv').config()
-const pino = require('pino')
-const pinoElastic = require('pino-elasticsearch')
+require('dotenv').config();
+const pino = require('pino');
+const pinoElastic = require('pino-elasticsearch');
 
 // Connection based on AWS Docs
 // https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-request-signing.html#es-request-signing-node
@@ -14,9 +14,9 @@ const streamToElastic = pinoElastic({
   'flush-bytes': 1000,
   'flush-interval': 3000,
   Connection
-})
+});
 
-const logger = pino({ level: 'info' }, streamToElastic)
+const logger = pino({ level: 'info' }, streamToElastic);
 
 logger.info('Test log');
 
