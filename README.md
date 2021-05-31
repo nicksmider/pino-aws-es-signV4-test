@@ -21,6 +21,9 @@ Create file `.env` and transfer contents of `.env_base`.
 You can replace the Elasticsearch endpoint with yours.
 
 ## Run
+
+Make sure your AWS.config.credentials is set before using this particular connection.
+
 ```
 npm start
 ```
