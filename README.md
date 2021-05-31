@@ -1,6 +1,6 @@
 # Test AWS Sign V4 with Pino Elasticsearch Stream
 
-This is intended to be used with a local copy of `pino-elasticsearch`.
+This is intended to be used with a local copy of `pino-elasticsearch`, specifically `https://github.com/nicksmider/pino-elasticsearch/tree/feature/connection-transport`
 
 If you want to use an active version of `pino-elasticsearch`, remove
 
