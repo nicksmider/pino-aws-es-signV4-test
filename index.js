@@ -12,6 +12,7 @@ const streamToElastic = pinoElastic({
   node: process.env.ELASTICSEARCH_URL,
   'es-version': 7,
   'flush-bytes': 1000,
+  'flush-interval': 3000,
   Connection
 })
 

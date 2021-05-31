@@ -2,6 +2,8 @@
 
 This is intended to be used with a local copy of `pino-elasticsearch`, specifically `https://github.com/nicksmider/pino-elasticsearch/tree/feature/connection`
 
+PR opened for that version: https://github.com/pinojs/pino-elasticsearch/pull/84
+
 If you want to use an active version of `pino-elasticsearch`, remove
 
 ```
